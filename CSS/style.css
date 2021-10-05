@@ -11,6 +11,31 @@ img{
     max-width: 100%;
 }
 
+nav{
+    background: #384050;
+    color: #FFFFFF
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.navbar ul li{
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-left: 1.2em;
+}
+
+.nav-button{
+    background: #A59678;
+    color: #FFFFFF;
+    margin-left: 1.5em;
+    padding: 0.5em;
+    border-radius: 30px;
+}
+
 .head{
     background-color: #2E323F;
     padding: 0.8em;
@@ -132,6 +157,11 @@ footer h5{
 }
 
 @media (min-width: 700px) {
+    .container{
+        max-width: 1200px;
+    }
+
+
     .row{
         display: flex;
     }
