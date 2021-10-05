@@ -18,12 +18,12 @@ img{
 
 .title1{
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .title2{
     color: #A59678;
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .para1{
@@ -129,4 +129,53 @@ footer h5{
     text-decoration: none;
     list-style-type: none;
     padding: 0.5em 0em;
+}
+
+@media (min-width: 700px) {
+    .row{
+        display: flex;
+    }
+
+    .row1{
+        align-items: flex-end;
+        padding: 4em 3em;
+    }
+
+    .row1 .col{
+        width: 100%;
+    }
+
+    .row1 .col + .col {
+        margin-left: 1em;
+    }
+
+    .title1, .title2{
+        font-size: 60px;
+    }
+
+    .section1{
+        width: 100%;
+        padding: 3em;
+    }
+
+    .section1 .col{
+        padding: 1em;
+    }
+
+    .section2{
+        padding: 3em;
+    }
+
+    .section2 .column2{
+        margin-left: 2em;
+    }
+
+    .footer-title{
+        font-size: 36px;
+    }
+
+    footer .col{
+        width: 100%;
+    }
+
 }
