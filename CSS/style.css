@@ -32,8 +32,9 @@ nav{
     background: #A59678;
     color: #FFFFFF;
     margin-left: 1.5em;
-    padding: 0.5em;
+    padding: 0.5em 0.75em;
     border-radius: 30px;
+    text-transform: uppercase;
 }
 
 .head{
@@ -159,6 +160,14 @@ footer h5{
 @media (min-width: 700px) {
     .container{
         max-width: 1200px;
+    }
+
+    .navbar ul li{
+        margin-left: 10em;
+    }
+
+    .nav-button{
+        margin-left: 10em;
     }
 
 
