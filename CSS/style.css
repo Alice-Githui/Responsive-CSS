@@ -13,7 +13,8 @@ img{
 
 nav{
     background: #384050;
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Oswald', 'sans-serif';
 }
 
 .navbar ul{
@@ -164,6 +165,8 @@ footer h5{
 
     .navbar ul li{
         margin-left: 10em;
+        font-size: 18px;
+        font-weight: bold;
     }
 
     .nav-button{
