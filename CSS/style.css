@@ -43,3 +43,55 @@ img{
     color: #FFFFFF;
     font-weight: bold;
 }
+
+.section1{
+    background: lightgray;
+    padding: 2em 1em;
+}
+
+.section1 h4{
+    color: #A59678;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0.5em;
+}
+
+.section1 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.section2{
+    padding: 1em;
+}
+
+.section2_title{
+    color: #A59678;
+    font-size: 36px;
+    font-family: 'Oswald', 'sans-serif';
+    margin: 0.75em;
+}
+
+.column1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column2 .content{
+    background: #2E323F;
+    margin-top: 1em;
+    color: white;
+    padding: 1.5em;
+}
+
+.column2 .content h4{
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.column2 .content p{
+    text-align: center;
+}
