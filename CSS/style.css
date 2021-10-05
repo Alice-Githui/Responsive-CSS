@@ -95,3 +95,38 @@ img{
 .column2 .content p{
     text-align: center;
 }
+
+.footer-title{
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.footer-details{
+    text-align: center;
+    padding: 0 0.5em;
+}
+
+footer{
+    background: #2E323F;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+footer h5{
+    color: #A59678;
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 21px;
+}
+
+.footer-list{
+    margin: 0.6em 0em;
+}
+
+.footer-list ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5em 0em;
+}
